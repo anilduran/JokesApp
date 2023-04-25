@@ -44,6 +44,7 @@
 		5537FAEF29F71971006B65B6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5537FAF429F71ADE006B65B6 /* JokeManager.swift */,
 				5537FAF229F71986006B65B6 /* Joke.swift */,
 			);
 			path = Model;
@@ -52,6 +53,8 @@
 		5537FAF029F71976006B65B6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				55533F7129F7085600E72195 /* Main.storyboard */,
+				55533F7629F7085600E72195 /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -59,7 +62,7 @@
 		5537FAF129F7197A006B65B6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				5537FAF429F71ADE006B65B6 /* JokeManager.swift */,
+				55533F6F29F7085600E72195 /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -88,10 +91,7 @@
 				5537FAEF29F71971006B65B6 /* Model */,
 				55533F6B29F7085600E72195 /* AppDelegate.swift */,
 				55533F6D29F7085600E72195 /* SceneDelegate.swift */,
-				55533F6F29F7085600E72195 /* ViewController.swift */,
-				55533F7129F7085600E72195 /* Main.storyboard */,
 				55533F7429F7085600E72195 /* Assets.xcassets */,
-				55533F7629F7085600E72195 /* LaunchScreen.storyboard */,
 				55533F7929F7085600E72195 /* Info.plist */,
 			);
 			path = JokesApp;
